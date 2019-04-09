@@ -9,5 +9,5 @@ $('#elem').animate({width:200},function(){
     },2000);
 });
 
-// Do it like this:
+// Do it like this: and will be faster
 $('#elem').animate({width:200}).delay(2000).animate({marginTop:100});
